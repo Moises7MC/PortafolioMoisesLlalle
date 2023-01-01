@@ -1,0 +1,605 @@
+.main{
+    margin-top: 56px;
+    background-color: var(--BcolorPrimary);
+}
+
+/*? Aquì comienza el div main__info */
+.main__info{
+    padding-top: 60px;
+}
+.main__infoText{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+
+h1{
+    color: #FF8303;
+    font-weight: 900;
+}
+
+h2{
+    color: #F0E3CA;
+    font-weight: 700;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__textoP{
+    color: #F0E3CA;
+}
+
+.main__imgCodigo{
+    background: url(codigo.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin-top: 40px;
+
+    background-position:center;
+    background-size: contain;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.main__imgFoto img{
+    border-radius: 50%;
+}
+
+.main__descripcion{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__descripcionImg{
+    justify-self: center;
+    align-self: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main__descripcionImg img{
+    width: 50px;
+    object-fit: cover;
+}
+
+.main__descriptionP{
+    margin-top: 50px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 13px;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    align-self: center;
+    margin-bottom: 20px;
+    background-color: var(--BcolorSecond);
+}
+
+.awork{
+    color: #F0E3CA;
+    background-color: #FF8303;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.main__MyWorks{
+    row-gap: 50px;
+}
+
+
+.awork:hover{
+    background-color: var(--BcolorSecond);
+    color: #FF8303;
+}
+
+@media screen and (max-width:500px) {
+    .main__caja{
+        position: relative;
+    }
+    .main__MySkills{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+
+    .main__MySkills > div{
+        background-color: var(--BcolorSecond);
+        width: 200px;
+        padding: 10px 0 0 10px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .main__cajaskill{
+        position: absolute;
+        right: 100px;
+        width: 100px;
+        top: -20px;
+        color: #FF8303;
+        font-weight: 700;
+    }
+    .main__MyWorks{
+        position: relative;
+    }   
+    .main__tittleWork{
+        position: absolute;
+        top: -20px;
+    }
+}
+
+.main__tituloSkills{
+    color: #FF8303;
+    font-weight: 700;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+
+/*? Aquì comienza el div main__MyWorks */
+.main__MyWorks{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 100px;
+    color: #FF8303;
+    margin-top:20px;
+    position: relative;
+}
+
+.main__cajaskill{
+    position: absolute;
+    margin-left: 300px;
+    text-align: center;
+}
+.main__tittleWork{
+    position: absolute;
+    font-size: 17px;
+    color: #FF8303;
+    font-weight: 700;
+}
+
+.main__Workss{
+    width: 250px;
+    height: 150px;
+    background: url(WorkPapaNoel.PNG);
+    background-position:center;
+    background-size: contain;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+.main__Works{
+    width: 250px;
+    height: 150px;
+    background: url(WorkNtf.PNG);
+    background-position:center;
+    background-size: contain;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+.main__Workss:hover{
+    opacity: .5;
+}
+
+.main__tituloSkills{
+    text-align: center;;
+}
+.main__MyWorkP{
+    color: #FF8303;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+.main__MyWorks > a{
+    width: 100px;
+    height: 40px;
+    background: #32312E;
+    border-radius: 4px;
+    color:#F0E3CA;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    align-items: center;
+
+    font-family: 'Inconsolata';
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.main__caja{
+    position: relative;
+    margin-top: 70px;
+}
+
+.main__MySkills{
+    justify-self: center;
+    align-self: center;
+}
+.main__descripcion
+{
+    align-self: center;
+    justify-self: center;
+} */
+.main__workTwo{
+    background: url(WorkNtf.PNG);
+    background-position:center;
+    background-size: contain;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.main__workTwo:hover{
+    opacity: .5;
+}
+
+/*? -Aquì comienza el Contact me-*/
+.main__Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: -60px; */
+}
+
+.main__Contact span{
+    font-size: 17px;
+}
+
+.main__ContactP{
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    line-height: 20px;
+    background-color: var(--BcolorSecond);
+    padding: 10px;
+}
+
+.main__iconosContact{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__tituloContacts{
+    font-size: 17px;
+    color: #FF8303;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.main__iconosContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    background-color: var(--BcolorSecond);
+    padding-bottom: 20px;
+}
+
+.main__redSocial{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: start;
+    width: 300px;
+    padding: 0 20px;
+}
+
+.mainlink{
+    color: #F0E3CA;
+}
+
+@media screen and (max-width:280px){
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .main__Works{
+        width: 220px;
+    }
+    .main__Workss{
+        width: 220px;
+    }
+    .main__ContactP{
+        width: 220px;
+    }
+    .main__iconosContact > div{
+        width: 250px;
+    }
+    .mainlink{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .main__MySkills{
+        background-color: var(--BcolorSecond);
+        display: grid;
+        grid-template-areas: 
+        "html css js"
+        "git sql sql";
+        row-gap: 20px;
+        padding: 20px;
+        column-gap: 10px;
+    }
+    .main__html{
+        grid-area: html;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .main__css{
+        grid-area: css;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .main__js{
+        grid-area: js;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .main__git{
+        grid-area: git;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .main__Sql{
+        grid-area: sql;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .main__infoText{
+        display: flex;
+        flex-direction: row;
+        row-gap: 10px;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 10px;
+    }
+   
+    .main__descripcion{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        column-gap: 20px;
+    }  
+    .main__cajaskill{
+        position: absolute;
+        right: 150px;
+        width: 100px;
+        top: -20px;
+        font-size: 17px;
+        color: #FF8303;
+        font-weight: 700;
+        padding-top: 10px;
+   }
+   .main__MyWorks{
+    position: relative;
+    margin-top: 100px;
+   }
+   .main__tittleWork{
+    position: absolute;
+    top: -30px;
+   }
+}
+
+@media screen and (min-width:767px){
+    .nav__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 50px;
+    }
+    .nav__toggle{
+        display: none;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .main__infoText{
+        flex-direction: column;
+    }
+    .main__info{
+        display: flex;
+        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-bottom: 20px;
+    }
+    .main__infoText{
+        grid-column: 1/3;
+    }
+    .main__imgCodigo{
+        grid-column: 3/5;
+    }
+    .main__cajaskill{
+        position: absolute;
+        left: 40px;
+        font-size: 17px;
+        color: #FF8303;
+        font-weight: 700;
+        padding-top: 10px;
+   }
+}
+
+@media screen and (min-width:677px) {
+    .main__infoText{
+        flex-direction: column-reverse;
+    }  
+}
+ 
+@media screen and (min-width:1000px){
+    .container{
+        width: 95%;
+        margin: auto;
+    }
+    
+    .contenedor{
+        /* display: grid;
+        grid-template-areas: 
+        "info info cod cod"
+        "desc desc ski ski"
+        "work work work work"
+        "cont cont cont cont"; */
+    }
+
+    .main__caja{
+        position: relative;
+    }
+    .main__info{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .main__infoText{
+        grid-column: 1/3;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 100px;
+        /* grid-area: info; */
+    }
+    .main__imgCodigo{
+        grid-column: 3/5;
+        /* grid-area: cod; */
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .main__textoP{
+        font-size: 20px;
+    }
+    .main__imgFoto img{
+        width: 200px;
+        object-fit: cover;
+    }
+    .main__descripcion{
+        /* grid-area: desc; */
+        /* align-self: flex-start; */
+    }
+    .main__descripcionImg{
+        /* background-color: #F0E3CA; */
+    }
+    .main__MySkills{
+        display: flex;
+    }
+    .main__MyWorks{
+        /* grid-area: work; */
+    }
+    .main__Contact{
+        /* grid-area: cont; */
+    }
+    .main__caja{
+        /* background-color: #FF8303; */
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+
+    }
+    .main__descripcion{
+        grid-column: 1/3;
+    }
+    .main__MySkills{
+        grid-column: 3/5;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+        width: 500px;
+    }
+    .main__MyWorks{
+        grid-column: 1/5;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .main__papanoel{
+        width: 50%;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__ntf{
+        /* width: 30%; */
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    .main__Contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+    }
+   .main__cajaskill{
+        position: absolute;
+        left: 300px;
+        font-size: 17px;
+        color: #FF8303;
+        font-weight: 700;
+        padding-top: 10px;
+   }
+
+   .main__ntf a{
+    margin-top: 10px;
+   }
+}
+
+@media screen and (max-width:1000px){
+    .main__papanoel{
+        position: relative;
+    }
+    .main__ntf{
+        position: relative;
+    }
+    .awork{
+        position: absolute;
+        left: 70px;
+    }
+    .main__Contact{
+        margin-bottom: 50px;
+    }
+}

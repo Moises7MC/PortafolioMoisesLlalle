@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Press+Start+2P&display=swap');
+
+/*? Variables css*/
+:root{
+    --BcolorPrimary:#1B1A17;
+    --BcolorSecond: #1F1E1B;
+    --font-Principal:'Inconsolata';
+
+    --colorPrincipal:#F0E3CA;
+    --BColorTittle: #FF8303;
+}
+
+/*? Reset css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-Principal);
+    color: var(--colorPrincipal);
+    font-size: 15px;
+}
